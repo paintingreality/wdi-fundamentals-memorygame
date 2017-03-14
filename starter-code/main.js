@@ -3,13 +3,13 @@ var cardTwo = "queen";
 var cardThree = "king";
 var cardFour = "king";
 
-if (cardOne == cardTwo) {
-	console.log('You found a match!');	
+if (cardOne === cardTwo) {
+	alert('You found a match!');	
 } else {
-  console.log('Sorry, try again.');
+  alert('Sorry, try again.');
 }
-if (cardThree == cardFour) {
-	console.log('You found a match!');	
+if (cardThree === cardFour) {
+	alert('You found a match!');	
 } else {
-  console.log('Sorry, try again.');
+  alert('Sorry, try again.');
 }
