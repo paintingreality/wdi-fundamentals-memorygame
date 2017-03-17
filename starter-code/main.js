@@ -1,8 +1,10 @@
+
 // variable names and values of cards.
 var cardOne = "queen";
 var cardTwo = "queen";
 var cardThree = "king";
 var cardFour = "king";
+
 
 // match and try again message for cardOne
 if (cardOne === cardTwo) {
@@ -39,15 +41,38 @@ if (cardFour === cardThree) {
 } else if (cardFour === cardTwo) {
 	alert ('Sorry, try again.');
 }
-// game board code is below Javascript haven't figured this out yet.
-
+// code above will generate alerts if code below is commented out.
+//game board code is below haven't figured this out yet. 
+//need to add to it.
+//got stuck here, don't know the proper structure/syntax.
 var gameBoard = document.getElementById("game-board");
-var className = document.createElement('div');
+var className = document.createElement('div'); 
+gameBoard.className = "card"
+card.appendChild("game-board");
+//for loop here?
+var cards = ['queen', 'queen', 'king', 'king'];
+var cardsInPlay = [0, 1, 2, 3];
+
+function createBoard('game-board');
+
+// for loop here?
+function createCards('cards'); {
+return ('queen', 'queen', 'king', 'king',)
+}
+//need to make event listener for click
+//need to create a function called isTwoCards.
+//need 
+function isTwoCards();
+cardsInPlay.push(this.getAttribute('data-card'));
+if (cardsInPlay.length === 2){
+function isMatch(cardsInPlay);
+	cardsInPlay = [];
+}
+
  
 
 
-gameBoard.className = "card"
-card.appendChild("game-board");
+
 
 
 
