@@ -1,11 +1,12 @@
+/* body style */
 body {
 	background-color: white;
 	text-align: center;
 }
-
+/* nav style */
 nav {
 	background-color: #808080;
-
+/* nav link style */
 }
 a {
 	background-color: #ffbf00;
@@ -14,10 +15,11 @@ a {
 	float: left;
 	padding: 35px;
 }
+/* hover for nav instructions and game buttons */
 a:hover {
 	background-color: #ee5f3c;
 }
-
+/* clearfix to align nav elements */
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -26,26 +28,25 @@ a:hover {
 	height: 0;
 	font-size: 0;
 }
-
+/* h1 style */
 h1 {
 	color: rgb(2, 132, 130);
 }
-
+/* h2 style */
 h2 {
 	color: #ffd700;
 }
-
+/* p style*/
 p {
 	color: black;
 }
-
+/* class board style */
 .board {
 	height: 50%;
 	width: 50%;
 	display: inline-block;
-
 }
-
+/* class card style */
 .card {
 	height: 200px;
 	width: 150px;
@@ -55,12 +56,11 @@ p {
 	float: left;
 	margin: 8%;
 }
-
+/* name in footer style */
 .name {
 	color: #ff0000;
-
 }
-
+/* footer style */
 footer {
 	background-color: #808080;
 	text-align: center;
